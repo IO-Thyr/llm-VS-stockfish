@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "llmvsstockfish"
+version = "0.1.0"
+description = ""
+authors = ["T-hyr <91010800+T-hyr@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+stockfish = "^3.28.0"
+chess = "^1.10.0"
+langchain-ollama = "^0.1.1"
+pydantic = "^2.8.2"
+langchain-openai = "^0.1.23"
+langchain-mistralai = "^0.1.13"
+pandas = "^2.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

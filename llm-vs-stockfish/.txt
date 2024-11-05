@@ -1,0 +1,22 @@
+"""
+Pour te repèrer voici à les coordonnée d'un jeu d'échec.
+        a b c d e f g h\n
+        8 . . . . . . . .\n
+        7 . . . . . . . .\n
+        6 . . . . . . . .\n
+        5 . . . . . . . .\n
+        4 . . . . . . . .\n
+        3 . . . . . . . .\n
+        2 . . . . . . . .\n
+        1 . . . . . . . .\n
+"""
+
+"""
+Le plateau de jeu ressemble actuellement à ça:
+\n{viz}\
+"""
+
+"""
+Tu joue une partie d'échec et c'est à toi de jouer.
+Voici les mouvement déjà réallisé dans l'ordre de leur éxécution.
+"""
